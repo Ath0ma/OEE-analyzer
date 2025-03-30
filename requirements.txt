@@ -3,4 +3,4 @@ opencv-python-headless==4.6.0.66
 ultralytics==8.3.75
 plotly==6.0.0
 pandas==2.2.3
-torch==1.13.1
+torch==2.6.0
