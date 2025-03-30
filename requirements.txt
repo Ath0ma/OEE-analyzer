@@ -1,5 +1,5 @@
-streamlit==1.42.1
-opencv-python==4.6.0.66
+streamlit==1.17.1
+opencv-python
 ultralytics==8.0.0
 plotly==6.0.0
-pandas==2.0.3
+pandas==2.2.3
