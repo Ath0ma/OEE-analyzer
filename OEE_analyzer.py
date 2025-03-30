@@ -43,7 +43,7 @@ if uploaded_file is not None:
             continue
 
         frame = cv2.resize(frame, (640, 360))
-        results = model(frame, conf=0.55)
+        results = model(frame, conf=0.55) #Hier kann man die confidence ändern
         detections = results[0].boxes.data
         detected_classes = [model.names[int(det[5])] for det in detections]
         current_time = frame_count / frame_rate
