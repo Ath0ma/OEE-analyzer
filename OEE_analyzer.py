@@ -13,7 +13,7 @@ model = YOLO(MODEL_PATH)  # Modell auf GPU verschieben (falls verfuegbar)
 # Streamlit App UI
 st.title("OEE Analyzer")
 
-frame_skip = 5 #Nummer, der wie vielte Frame geskipped wird
+frame_skip = 5 #Jeder 5. Frame wird analysiert
 
 # Video-Upload
 uploaded_file = st.file_uploader("Lade ein Video hoch", type=["mp4", "avi", "mov"])
