@@ -48,6 +48,10 @@ streamlit run OEE_analyzer.py
 
 - **Modell:** YOLOv8, trainiert zur Erkennung von:
   - Drehmaschine (drehend & still)
+  - Werkzeug
+  - Werkzeugwechsler
+  - Werkstück
+  - Späne (Span, Spankissen, Schlingspan)
   - Reinigungsstange
   - Zange
 
