@@ -1,6 +1,6 @@
-streamlit
-opencv-python-headless
-ultralytics
-plotly
-pandas
-torch
+streamlit==1.44.0
+opencv-python-headless==4.11.0.86
+ultralytics==8.3.75
+plotly==6.0.0
+pandas==2.2.3
+torch==1.13.1
