@@ -55,6 +55,8 @@ streamlit run OEE_analyzer.py
   - Reinigungsstange
   - Zange
 
+- **Confidence-Schwelle:** Das Modell verwendet eine **Confidence-Schwelle von 0.55** (d. h., Objekte mit einer Wahrscheinlichkeit von weniger als 55% werden nicht berücksichtigt).
+
 - **Frame-Sampling:** Es wird nur **jeder 5. Frame analysiert** (`frame_skip = 5`), um die Performance zu verbessern.
 
 - **Zeitberechnung:** Die Zeit jedes erkannten Frames wird mit der Video-FPS synchronisiert. Die Zustandsdauer ergibt sich aus der Differenz zwischen aufeinanderfolgenden Zustandswechseln.
